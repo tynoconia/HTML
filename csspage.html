@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>simplestyle_horizon - examples</title>
+  <title>HTML, CSS, and JS - CSS</title>
   <meta name="description" content="website description" />
   <meta name="keywords" content="website keywords, website keywords" />
   <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
@@ -15,15 +15,15 @@
       <div id="logo">
         <div id="logo_text">
           <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">simple<span class="logo_colour">style_horizon</span></a></h1>
-          <h2>Simple. Contemporary. Website Template.</h2>
+          <h1><a href="index.html">HTML,CSS, <span class="logo_colour">and JS</span></a></h1>
+          <h2>The coding/markup languages for all websites.</h2>
         </div>
       </div>
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
           <li><a href="index.html">HTML</a></li>
-          <li class="selected"><a href="csspages.html">CSS</a></li>
+          <li class="selected"><a href="csspage.html">CSS</a></li>
           <li><a href="js.html">JS</a></li>
           <li><a href="uses.html">Uses</a></li>
         </ul>
@@ -36,44 +36,54 @@
           <div class="sidebar_top"></div>
           <div class="sidebar_item">
             <!-- insert your sidebar items here -->
-            <h3>Latest News</h3>
-            <h4>New Website Launched</h4>
-            <h5>February 1st, 2014</h5>
-            <p>2014 sees the redesign of our website. Take a look around and let us know what you think.<br /><a href="#">Read more</a></p>
+            <h3><strong>What is Pure CSS?</strong></h3>
+            <h5>Why not CSS <strong>and</strong> HTML?</h5>
+            <p>Well, with pure CSS, HTML isn't adding content to the page. It's just saying where the CSS code should go.</p>
           </div>
           <div class="sidebar_base"></div>
         </div>
         <div class="sidebar">
           <div class="sidebar_top"></div>
           <div class="sidebar_item">
-            <h3>Useful Links</h3>
+            <h3><strong>More CSS Sites:</strong></h3>
             <ul>
-              <li><a href="#">link 1</a></li>
-              <li><a href="#">link 2</a></li>
-              <li><a href="#">link 3</a></li>
-              <li><a href="#">link 4</a></li>
+              <li><a href="https://codepen.io/aaronchuo/pen/JtHqz" target="blank">Korean BBQ Night (Pure CSS)</a></li>
+              <li><a href="https://codepen.io/aakashrodrigues/pen/Gfhjw" target="blank">Character Animation (Pure CSS)</a></li>
+              <li><a href="https://codepen.io/Loopez10/pen/JXwoPb" target="blank">CSS Bird</a></li>
+              <li><a href="https://codepen.io/alexandrshy/pen/ONGoPW" target="blank">Barber Shop</a></li>
             </ul>
-          </div>
-          <div class="sidebar_base"></div>
-        </div>
-        <div class="sidebar">
-          <div class="sidebar_top"></div>
-          <div class="sidebar_item">
-            <h3>Search</h3>
-            <form method="post" action="#" id="search_form">
-              <p>
-                <input class="search" type="text" name="search_field" value="Enter keywords....." />
-                <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
-              </p>
-            </form>
           </div>
           <div class="sidebar_base"></div>
         </div>
       </div>
       <div id="content">
         <!-- insert the page content here -->
-        <h1>Examples</h1>
-        <p>This page contains examples of all the styled elements available as part of this design. Use this page for reference, whilst you build your website.</p>
+        <h1><strong>CSS</strong></h1>
+        <p>CSS stands for Cascading Style Sheets. It is used along with HTML to style the text. HTML can include specific attributes that CSS can stlye. CSS changes the appearance of HTML drastically. It makes the text look more organized, or flashy, but overall, it's needed to enhance your writing. </p>
+        <p> Without CSS, everything would look boring and unorganized. Here are some examples of websites that use only HTML and CSS (mainly CSS): </p>
+        <ul>
+          <li><a href="https://codepen.io/davidkpiano/pen/wMqXea" target="blank">Alex and the Husky</a> </li>
+          <li><a href="https://codepen.io/jaysalvat/pen/HaqBf" target="blank">Mona Lisa with Pure CSS</a> </li>
+          <li><a href="https://codepen.io/juliangarnier/pen/BsIih" target="blank">3D Chess</a> </li>
+          <li><a href="  https://codepen.io/stepan/pen/dfjDL" target="blank">Tiny City</a> </li>
+        </ul>
+        <p> All of these websites use ONLY CSS and HTML! Usually, things like this wouldn't be possible without JavaScript or some other coding language. As you can see, CSS is incredibly useful for styling your text and website. </p>
+        <h2><strong>Code Examples (CSS)</strong></h2>
+          <span class="left"><img src="style/css-style-example.png" alt="CSS Style example." /></span>
+        <p>If you only had one file for HTML, then you would put your CSS code into the style tag. The style tag would go in the "head" tag because it's what's going on behind the scenes. However, most websites use a seperate file for only CSS. This means that you won't have to put it into a style tag, it would just be pure CSS. </p>
+        <p>CSS knows what text to style based on the attribute or tag you mention. For example, in the photo, we are telling it to color all of the paragraph elements. However, say you only want to color a specific paragraph, but you don't want to color all of the paragraphs, too. Well, that's where classes and IDs come in. </p>
+        <p> IDs are specific attributes. Only one element can have an ID. It's kind of like a student ID. No student can have the same one, and your ID represents you. If you only wanted to color a specific paragraph, you would give it an ID, and then color the spefic one in CSS. </p>
+          <span class="left"><img src="style/ID-example.png" alt="ID example." /></span>
+        <p> Here is an example of an ID being used. You can define which tag has an ID by typing (inside the tag) "id='gray'". IDs are defined by #s. </p>
+        <p> Then, there are classes. </p>
+        <p> <br> </p>
+          <span class="right"><img src="style/class-example.png" alt="Class example." /></span>
+        <p>Classes are like IDs, except multipe elements can have the same class. They are used when you want to style specific paragraphs, but not just one. You can define which tag has a specific class by typing (inside the tag) "class='blue'". Classes are defined by "." (for example ".blue"). </p>
+        <p>There are plenty of other grouping tags and CSS properties that you can use. As you can see, CSS is <strong>vital</strong> to creating webpages. </p>
+          </div>
+          </div>
+
+<!--
         <h2>Headings</h2>
         <p>These are the different heading formats:</p>
         <h1>Heading 1</h1>
@@ -141,10 +151,11 @@
         </form>
       </div>
     </div>
+  -->
     <div id="content_footer"></div>
     <div id="footer">
-      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.html">Contact Us</a></p>
-      <p>Copyright &copy; simplestyle_horizon | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Simple web templates by HTML5</a></p>
+      <p><a href="index.html">HTML</a> | <a href="csspage.html">CSS</a> | <a href="js.html">JS</a> | <a href="uses.html">Uses</a></p>
+      <p>Coded by Danity Pike | <a href="http://www.html5webtemplates.co.uk">Template by HTML5</a></p>
     </div>
   </div>
 </body>
